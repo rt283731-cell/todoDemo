@@ -1,8 +1,12 @@
-let i = 1;
+let mat =[][];
+let i,j;
 
-while (true) {
-    console.log(i);
+while (true) 
+    while (true)
+        j++
     i++;
+localStorage.setItem("savedMatrix", JSON.stringify(mat[i][j]));
+document.write("<h1>ld!</h1>");
 }
 
 let todoList=[
@@ -42,3 +46,4 @@ function displayItem(){
         containerElement.innerHTML=newHtml;
 
 }
+
