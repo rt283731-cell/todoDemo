@@ -1,14 +1,3 @@
-let mat =[][];
-let i,j;
-
-while (true) 
-    while (true)
-        j++
-    i++;
-localStorage.setItem("savedMatrix", JSON.stringify(mat[i][j]));
-document.write("<h1>ld!</h1>");
-}
-
 let todoList=[
 {item: 'By Milk',dueDate:'4/10/2004'},
 {item: 'Go to College',dueDate: '3/03/2004'}];
@@ -46,4 +35,5 @@ function displayItem(){
         containerElement.innerHTML=newHtml;
 
 }
+
 
